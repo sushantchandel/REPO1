@@ -17,6 +17,6 @@ if($conn->query($sql)===true){
 }else{
     echo "Error creating database: " . $conn->error;
 }
-
+// add my new code in my file
 $sql1 = "INSERT INTO "
 ?>
